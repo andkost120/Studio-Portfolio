@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "Graphik"; /*Graphik-Regular*/
+  src: url("../fonts/Graphik/Graphik-400-Regular.otf");
+  src: url("../fonts/Graphik/Graphik-400-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Graphik/Graphik-400-Regular.woff2") format("woff2"),
+    url("../fonts/Graphik/Graphik-400-Regular.woff") format("woff"),
+    url("../fonts/Graphik/Graphik-400-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: "U+00??";
+}
+
+@font-face {
+  font-family: "Graphik"; /*Graphik-Medium*/
+  src: url("../fonts/Graphik/Graphik-500-Medium.otf");
+  src: url("../fonts/Graphik/Graphik-500-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Graphik/Graphik-500-Medium.woff2") format("woff2"),
+    url("../fonts/Graphik/Graphik-500-Medium.woff") format("woff"),
+    url("../fonts/Graphik/Graphik-500-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: "U+00??";
+}
+
+/****** Elad Shechter's RESET *******/
+/*** box sizing border-box for all elements ***/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+button {
+  background-color: transparent;
+  color: inherit;
+  border-width: 0;
+  padding: 0;
+  cursor: pointer;
+}
+figure {
+  margin: 0;
+}
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+ul,
+ol,
+dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+p {
+  margin: 0;
+}
+cite {
+  font-style: normal;
+}
+fieldset {
+  border-width: 0;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  font-family: "Graphik", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  margin: 0;
+  color: #f2f3f1;
+  font-style: normal;
+  font-weight: 400;
+  height: 100%;
+  background: #030303;
+}
+
+button {
+  font-family: "Graphik", Helvetica, Arial, sans-serif;
+}
